@@ -1,0 +1,148 @@
+.App {
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+  margin-top: 50px;
+}
+
+.App header {
+  text-transform: uppercase;
+  color: transparent;
+  color: #6d4aff;
+  font-size: 3rem;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.App .add {
+  background-color: #291d58;
+  padding: 15px 30px;
+  -webkit-box-shadow: 0 10px 20px rgba(109, 74, 255, 0.19), 0 6px 6px rgba(109 ,74 ,255 ,0.23);
+	box-shadow: 0 10px 20px rgba(109, 74, 255, 0.19), 0 6px 6px rgba(109 ,74 ,255 ,0.23);
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.App .add form {
+  display: flex;
+  align-items: center;
+}
+
+.App .add input {
+  border: 1px solid white;
+  border-radius: 500px;
+  padding: 10px 10px 10px 20px;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  color: #314e52;
+  font-weight: 300;
+}
+
+.App .add button {
+  background: #6d4aff;
+  color: white;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  margin-left: 15px;
+}
+
+.App .add button svg {
+  margin-right: 5px;
+}
+
+input:focus-visible {
+  outline: 1px solid #6d4aff;
+  box-shadow: 0 0 15px 5px rgba(110, 74, 255, 0.605);
+}
+
+/* Footer */
+
+.footer {
+  color: #000;
+  text-align: center;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+}
+.footer a {
+  color: #000;
+}
+
+.heartPulse {
+  -webkit-animation: pulse 2s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: pulse 2s cubic-bezier(0.4,0,0.6,1) infinite;
+}
+
+/* Animation CSS pour l'input */
+
+:global(.shakeHorizontal) {
+	-webkit-animation: shakeHorizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shakeHorizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes shakeHorizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+  }
+}
+
+@keyframes shakeHorizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+  }
+}
