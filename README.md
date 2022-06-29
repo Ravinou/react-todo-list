@@ -1,6 +1,7 @@
 # TODO LIST React
-
-![TO-DO List](TO-DO-List.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ravinou/react-todo-list/main/TO-DO-List.png?raw=true" alt="TODO LIST image"/>
+</p>
 
 * Cette TO-DO List ReactJS permet d'ajouter, supprimer, cocher/décocher des tâches. 
 
